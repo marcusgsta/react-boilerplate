@@ -1,26 +1,15 @@
 # React.js Boilerplate
 
-Scaffolds an empty React.js project
-
-make this an npm module??
-yes!
-or a docker image
+Scaffolds an empty React.js web site project
 
 Includes:
 
-File structure with header, navigation, footer and a couple of empty pages.
+- Responsive Header, navigation, footer and a couple of empty pages.
+- Drop-down menu for navigation.
 
-Navigation drop-down menu.
-Responsive navigation and footer.
-
-Uses Bootstrap, FontAwesome
-nodemon
-
-Base styles
-
-Color schemes?
-
-Unit tests
+Dependencies:
+- Bootstrap
+- FontAwesome
 
 Work with this repo
 
@@ -28,10 +17,16 @@ Install:
 
 ```
 git clone https://github.com/marcusgsta/react-boilerplate.git
+npm install
 ```
 
-Use nodemon for live updating
+Run:
+```
+npm start
+```
 
-Use Sass --watch like this:
+Edit sass/styles.scss and use Sass --watch like this:
 
+```
 sass -w src/sass/styles.scss:src/css/styles.css
+```
