@@ -2,28 +2,33 @@
 
 Scaffolds an empty React.js web site project
 
-Includes:
+### Includes
 
 - Responsive Header, navigation, footer and a couple of empty pages.
 - Drop-down menu for navigation.
 
-Dependencies:
+### Dependencies
+
 - Bootstrap
 - FontAwesome
 
-Work with this repo
+## Work with this repo
 
-Install:
+### Install
 
 ```
 git clone https://github.com/marcusgsta/react-boilerplate.git
 npm install
 ```
 
-Run:
+### Run
 ```
 npm start
 ```
+
+### SASS
+Install SASS according to your system:
+[http://sass-lang.com/install](http://sass-lang.com/install)
 
 Edit sass/styles.scss and use Sass --watch like this:
 
